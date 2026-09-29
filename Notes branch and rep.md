@@ -1,0 +1,20 @@
+(CONNET LOCAL REP TO GITHUB REP)
+create a Local Folder OR Repositry named as "Githubemc2"
+add the new files(index.html,style.css,script.js)
+create a empty git in local Folder -> git init
+move to all file (local to staging area) -> git add . .
+move the files staging area to git -> git commit -m "Create a index.html,style.cc and script.js"
+Create a new Repositry in Github named as "Githubemc2"
+add the origin or connet local Rep to Github Rep -> git remote add origin https://github.com/profo-sriram/Githubemc2.git
+check the branch name -> git branch (*master)
+change the branch name-> git branch -m main (*main)
+push the file git to Github -> git push origin main
+
+(BRANCH)
+Create a new branch in Github (main->Right click->branch name-> create new branch)
+check the all branch -> git branch -a (but show only main)
+git pull
+check once ->git branch -a (show the two branchs"main,gitbranch1")
+change the branch in vs code -> git checkout gitbranch1 (main to gitbranch)
+merge the all branch -> git merge gitbranch1
+git pull
